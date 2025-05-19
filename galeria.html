@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Galería alternativa</title>
+  <style>
+    body { background: #bde0fe; font-family: sans-serif; text-align: center; }
+    header { background: #48cae4; color: white; padding: 20px; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 15px;
+      padding: 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+    a { background: #0077b6; color: white; padding: 10px 15px; border-radius: 8px; text-decoration: none; display: inline-block; margin-top: 20px; }
+  
+  </style>
+</head>
+<body>
+  <header><h1>Galería de mi viaje ideal</h1></header>
+  <div class="grid">
+       <img src="img/brasil.jpg" alt="">
+    <img src="img/pan.jpg" alt="">
+    <img src="img/escaleras.jpg" alt="">
+    <img src="img/estadio.jpg" alt="">
+    <img src="img/lago.jpg" alt="">
+     <img src="img/cristo.jpg" alt="">
+   
+  </div>
+  <a href="index.html">← Volver al menú</a>
+</body>
+</html>
